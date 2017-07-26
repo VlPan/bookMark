@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Заметки bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/resetBotstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body onload = "fetchBookmarks()">
+
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+
+        </nav>
+        <h3 class="text-muted">Заметки</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h2>Добавьте свои любимые сайты в заметки!</h2>
+        <form action="" id="myForm">
+            <div class="form-group">
+                <label for="">Имя сайта</label>
+                <input type="text" class="form-control" id="siteName" placeholder = "Имя сайта..">
+            </div>
+
+            <div class="form-group">
+                <label for="">Имя сайта</label>
+                <input type="text" class="form-control" id="siteURL" placeholder = "Ссылка на сайт..">
+            </div>
+            <button class="btn btn-primary">Добавить</button>
+
+        </form>
+    </div>
+
+    <div class="row marketing">
+        <div class="col-lg-12">
+            <div id="bookmarksResults"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Заметк@</p>
+    </footer>
+
+</div> <!-- /container -->
+
+<script src="jquery/jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

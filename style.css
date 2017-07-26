@@ -1,0 +1,10 @@
+.jumbotron h2{
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+
+.btn-default, .btn-danger{
+    display: block;
+    width: 20%;
+    margin-top: 15px;
+}
